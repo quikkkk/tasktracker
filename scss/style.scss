@@ -151,6 +151,11 @@ html {
    display: inline-block;
    margin-left: 16px;
    cursor: pointer;
+   transition: .3s;
+
+   &:hover {
+    opacity: .7;
+   }
   }
  }
 }
